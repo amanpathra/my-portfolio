@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Product Sans";
+    src: url("assets/fonts/Product\ Sans\ Regular.woff2") format("woff2"),
+        url("assets/fonts/Product\ Sans\ Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "YourFontName";
+    src: url("assets/fonts/Product\ Sans\ Bold.woff2") format("woff2"),
+        url("assets/fonts/Product\ Sans\ Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Product Sans", "Montserrat", sans-serif;
+    background: url(assets/images/bodybg.png) repeat-y;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}

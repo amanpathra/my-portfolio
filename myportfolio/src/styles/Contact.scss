@@ -1,0 +1,115 @@
+$primary-black: #242424;
+
+#Contact {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 2rem;
+
+    & .contact-graphics {
+        height: 55%;
+        width: 36%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        & span {
+            color: white;
+            font-weight: bold;
+            font-size: 3.2rem;
+            text-shadow: 2px 2px 4px #00000050;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 3;
+        }
+
+        & img {
+            height: 100%;
+            position: absolute;
+            margin: auto;
+            animation: hover 24s ease infinite forwards;
+            user-select: none;
+
+            &:nth-child(2) {
+                transform-origin: 10% 50%;
+                animation: wobble 8s linear infinite forwards;
+                animation-delay: 1s;
+            }
+            &:nth-child(3) {
+                animation-delay: 2s;
+            }
+            &:nth-child(4) {
+                animation-delay: 3s;
+            }
+            &:nth-child(5) {
+                animation-delay: 4s;
+            }
+            &:nth-child(6) {
+                animation-delay: 5s;
+            }
+            &:nth-child(7) {
+                animation-delay: 4s;
+            }
+            &:nth-child(8) {
+                animation-delay: 3s;
+            }
+            &:nth-child(9) {
+                animation-delay: 2s;
+            }
+        }
+    }
+
+    & a {
+        height: 80px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        transition: height 0.3s ease-in-out;
+
+        &:hover{
+            height: 90px;
+        }
+
+        & img {
+            height: 100%;
+            user-select: none;
+        }
+
+        &:nth-child(2) {
+            top: 87%;
+            left: 35%;
+        }
+
+        &:nth-child(3) {
+            top: 24%;
+            left: 25%;
+        }
+
+        &:nth-child(4) {
+            top: 61%;
+            left: 19%;
+        }
+
+        &:nth-child(5) {
+            top: 10%;
+            left: 48%;
+        }
+
+        &:nth-child(6) {
+            top: 22%;
+            left: 75%;
+        }
+
+        &:nth-child(7) {
+            top: 60%;
+            left: 82%;
+        }
+
+        &:nth-child(8) {
+            top: 90%;
+            left: 68%;
+        }
+    }
+}
