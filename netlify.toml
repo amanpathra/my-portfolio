@@ -14,7 +14,7 @@
 # Deploy settings
 [build.environment]
   # Specify the Node.js version
-  NODE_VERSION = "14"
+  NODE_VERSION = "18.15.0"
 
 # Additional settings
 [settings]
