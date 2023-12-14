@@ -9,7 +9,7 @@
   command = "npm run build"
 
   # Ignored files and directories during build
-  ignore = ["backend", ".gitignore"]
+  ignore = "backend, .gitignore"
 
 # Deploy settings
 [build.environment]
